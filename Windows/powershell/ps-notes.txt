@@ -1,0 +1,10 @@
+Get-ExecutionPolicy
+
+Restricted
+AllSigned
+RemotedSigned
+
+Set-ExecutionPolicy unrestriced
+
+start-transcript
+get-command
